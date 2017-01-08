@@ -1,0 +1,129 @@
+/* =Global
+-------------------------------------------------------------- */
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,img,div,input,dl,dt,dd,a{ margin:0px; padding:0px;}
+body{font-size:12px; line-height:20px; font-family:tahoma,Arial,\5B8B\4F53; background:#F7F7F7; color:#333; text-shadow:0 1px 0 white;}
+ul,ol,li{list-style-type:none;}
+img,input{border:0; vertical-align:middle;}
+img{display:block;}
+em{font-style:normal;}
+
+/* =Default
+-------------------------------------------------------------- */
+h1,h2,h3{ font-family:\5FAE\8F6F\96C5\9ED1; font-weight:normal;}
+a{ color:#7F7F7F; text-decoration:none; cursor:pointer;}
+.left{float:left;}
+.right{float:right;}
+.clear{ clear:both;}
+.textCenter{ text-align:center;}
+.hide{ display:none;}
+.display{display:block;}
+.red{color:#f00;}
+
+/* =Header
+-------------------------------------------------------------- */
+.warp-header{ width:100%; height:100px; background:url(../images/icon.png) repeat-x; margin-bottom:30px;}
+.header{ width:980px; height:100px; margin:0 auto; position:relative;}
+.header .logo{ position:absolute; top:20px; left:20px;}
+
+.nav{ position:absolute; top:30px; right:20px;}
+.nav li{ float:left; display:inline; border-left:1px solid white;}
+.nav li a{ display:inline-block; padding:0 20px; height:40px; text-align:center; color:#666; border-left:1px solid #DADADA;}
+.nav li a:hover{ text-decoration:none; color:#7DAF3A;}
+.nav .cn{ font-family:\5FAE\8F6F\96C5\9ED1; font-size:18px; line-height:24px;}
+.nav .en{ font-family:\5B8B\4F53; line-height:16px;}
+.nav .first,.nav .first a{ border-left:none;}
+.nav .current a{ color:#7DAF3A;}
+
+
+.main{ width:980px; margin:0 auto 60px auto;}
+/* =Home
+-------------------------------------------------------------- */
+.feature{ height:310px; position:relative; margin-bottom:60px;}
+.feature h2{ height:26px; line-height:26px; font-size:26px; margin-bottom:18px;}
+.feature p{ font-size:15px;color:#666; line-height:24px; margin-bottom:25px;}
+.feature .intro{ width:320px; font-family:\5FAE\8F6F\96C5\9ED1; position:absolute; top:12px; right:0;}
+
+.feature .intro p{ text-indent:2em;} 
+
+.feature .btn a{ display:block; float:left; width:150px; height:46px; margin:0 auto; background:url(../images/icon.png) 0 -260px no-repeat;}
+.feature .btn a:hover{ background-position:0 -316px;}
+.feature .btn2 a{ display:block; float:right; width:150px; height:46px; margin:0 auto; background:url(../images/icon.png) 0 -372px no-repeat;}
+.feature .btn2 a:hover{ background-position:0 -428px;}
+.feature .btn3 a{ display:block; float:left; width:150px; height:46px; margin:0 auto; background:url(../images/icon.png) 0 -484px no-repeat;}
+.feature .btn3 a:hover{ background-position:0 -540px;}
+.feature .info4{ display:block; float:left;margin-left:10px;}
+
+.leaders{ width:940px; height:270px; padding:0 20px;}
+.leaders h3{ font-size:20px; color:#7DAE39; padding:10px 3px;}
+.leaders p{ padding:0 3px;}
+.leaders .center{ margin:0 35px;}
+.ld-list{ display:block; float:left; width:284px; height:264px; padding:2px; border:1px solid #E2E2E2; background:url(../images/leaders_list.jpg) no-repeat;}
+.ld-img{ height:140px; border-bottom:1px solid white;}
+.ld-img img{ width:284px; height:130px; padding-bottom:10px; border-bottom:1px solid #E2E2E2;}
+
+/* =Pricing
+-------------------------------------------------------------- */
+.pricing h2{ height:30px; line-height:30px; font-size:30px; padding:20px 0 15px 0; color:#7DAF3A; text-align:center;}
+.pricing h3{ font-size:20px; height:20px; color:#7DAF3A; text-align:center;}
+
+.pricing-main{ padding:50px 16px 0 16px;}
+.column1,.column2,.column3,.column4{ position:relative; float:left; width:235px; margin:0 1px; background:#FAFAFA;}
+.column1,.column3,.column4{ margin-top:20px;}
+.column2{ box-shadow:0 0 10px #C5C5C5; z-index:999}
+.column2 .plan-bottom{ padding-bottom:70px;}
+.plan-bottom{ padding-bottom:50px;}
+.version1,.version2,.version3,.version4{ color:white; text-align:center; background:url(../images/pricing.png) no-repeat;}
+.version1{ height:261px; background-position:0 0; text-shadow:0 1px 0 #518A06;}
+.version2{ height:281px; background-position:0 -270px; text-shadow:0 1px 0 #1F78AB;}
+.version3{ height:261px; background-position:0 -560px; text-shadow:0 1px 0 #187181;}
+.version4{ height:261px; background-position:0 -830px; text-shadow:0 1px 0 #000000;}
+.plan-hot{ height:20px; line-height:20px;}
+.plan-name{ height:44px; line-height:44px; font-family:\5FAE\8F6F\96C5\9ED1; font-size:20px; margin-bottom:25px;}
+.plan-price{ height:80px; line-height:80px; font-family:\5FAE\8F6F\96C5\9ED1; font-size:40px; margin-bottom:15px;}
+.per-month{ font-size:30px;}
+.plan-purchase p{ font-size:14px; font-weight:bold; padding:2px 0;}
+.features{ font-size:14px; line-height:42px;}
+.features .first{ border-top:none;}
+.features li{ padding-left:20px; border-top:1px solid white; border-bottom:1px solid #EBEBEB;}
+.features .alt{ background:#F6F6F6;}
+.features p{ font-size:12px; line-height:22px;}
+
+/* =Feature
+-------------------------------------------------------------- */
+/* =Feature
+-------------------------------------------------------------- */
+.side{ width:210px; float:left; margin-right:20px; padding-top:10px;}
+.side li{ font-family:\5FAE\8F6F\96C5\9ED1; font-size:14px; border-top:1px solid white; border-bottom:1px solid #CCC;}
+.side li a{ height:40px; line-height:40px; display:block; padding:0 10px; color:#333;}
+.side li a:hover{ color:#7DAF3A;}
+.side .first{ border-top:none;}
+
+.content-r{ width:700px; padding:20px; float:left;}
+.figure{ padding-bottom:30px;}
+.figure h2{ font-size:16px; font-weight:bold; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #DADADA;}
+.figure img{ border-right:2px solid #DADADA; border-bottom:2px solid #DADADA;}
+
+
+
+/* =Footer
+-------------------------------------------------------------- */
+.warp-footer{ width:100%; height:140px; background:url(../images/icon.png) 0 -110px repeat-x; text-align:center;}
+.warp-footer a{ margin:0 5px;}
+.warp-footer a:hover{ color:#333;}
+.footer{ width:980px; height:140px; margin:0 auto;}
+.blogroll{ padding:0 20px; height:50px; line-height:50px; color:#7F7F7F; border-bottom:1px solid #C7C7C7;text-align:left;}
+.link-tit{ color:#7F7F7F; font-weight:bold;}
+.copyright{ padding:17px 20px 0 20px; border-top:1px solid #FFF; color:#7F7F7F;}
+.ft-logo{ float:left; margin-right:20px;}
+.ft-infor{ float:left; line-height:24px;}
+
+.copyright span{display:block; float:left; line-height:15px; clear:both;}
+
+
+ /* 返回顶部
+ -------------------------------------------------------------- */
+#to_top { position:fixed;    bottom:50px;	    right:50px;
+	height:47px;    width:47px; opacity:0.5;
+	background:url(../images/top02.png);
+}
+#to_top:hover { opacity:1;}
