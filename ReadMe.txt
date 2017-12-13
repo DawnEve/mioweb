@@ -11,3 +11,4 @@ v1.2 添加微信支付二维码。修改meta name=keywords description自我描
 
 v1.3 添加payment菜单到每个页面。加入米欧互联公众号二维码。-20171120 
 	v1.3.1 纠正菜单错误：当前页才高亮。
+	v1.3.2 去掉外网站已加载不上的 tongji.js。
